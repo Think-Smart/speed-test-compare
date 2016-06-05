@@ -1,0 +1,67 @@
+
+html, body {
+	position: relative;
+    min-height: 100%;
+}
+body {
+    background: #003C65;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* navbar */
+.navbar {
+	margin-top: 30px;
+}
+/* end navbar */
+
+/* speedTestResults */
+.speedTestResults p {
+    font-size: 18px;
+    color: #003C65;
+}
+.speedTestResults p:first-child {
+    font-weight: 600;
+    font-size: 20px;
+}
+.speedTestResults .speedNum {
+    color: #3278B4;
+}
+/* end speedTestResults */
+
+/* positionsList */
+.positionsList {
+    list-style: none;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #6EACCA;
+}
+.positionsList li {
+    margin: 15px 0;
+}
+.positionsList li a {
+    color: #31708F;
+    margin-right: 10px;
+}
+/* end positionsList */
+
+/* footer */
+footer {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+/* end footer */
+
+.spanTypeTest {
+    font-weight: 300;
+    border-bottom: none!important;
+    text-align: center;
+}
+.testRow:hover {
+    background: #F4FBFF;
+    cursor: pointer;
+}
+.table {
+	background: #FFF;
+}
